@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Diagnostics;
 namespace api.Controllers;
 
 [ApiController]
-[Route("/api/[controller]")]
+[Route("")]
 public class ObjectWithImageController : ControllerBase
 {
     private readonly ILogger<ObjectWithImageController> _logger;
